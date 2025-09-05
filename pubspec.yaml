@@ -81,6 +81,15 @@ flutter:
     - assets/images/image 50 (1).png
     - assets/images/image 57.png
     - assets/images/image 63.png
+    - assets/images/image 41.png
+    - assets/images/image 42.png
+    - assets/images/image 43.png
+    - assets/images/image 44 (1).png
+    - assets/images/image 45 (1).png
+    - assets/images/cart.png
+    - assets/images/milk.png
+    - assets/images/potato.png
+    - assets/images/tomato.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

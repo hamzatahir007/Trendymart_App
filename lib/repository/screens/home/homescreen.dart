@@ -245,6 +245,55 @@ class _HomescreenState extends State<Homescreen> {
           ),
 
           // Expanded end
+          Row(
+            children: [
+              SizedBox(width: 20),
+              UiHelper.CustomText(
+                text: "Grocery & Kitchen",
+                color: AppColors.black,
+                fontweight: FontWeight.bold,
+                fontsize: 14,
+                fontfamily: 'bold',
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Expanded(
+            flex: 1,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 20),
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          height: 78,
+                          width: 71,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: AppColors.gray2,
+                          ),
+                          child: UiHelper.CustomImage(
+                            img: grocerykitchen[index]["img"].toString(),
+                          ),
+                        ),
+                      ),
+                      UiHelper.CustomText(
+                        text: grocerykitchen[index]["text"].toString(),
+                        color: AppColors.black,
+                        fontweight: FontWeight.normal,
+                        fontsize: 10,
+                      ),
+                    ],
+                  );
+                },
+                itemCount: grocerykitchen.length,
+                scrollDirection: Axis.horizontal,
+              ),
+            ),
+          ),
         ],
       ),
     );
