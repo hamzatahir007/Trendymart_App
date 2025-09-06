@@ -38,7 +38,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: ^0.13.1
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -48,7 +48,10 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/image 10.png"
 # The following section is specific to Flutter packages.
 flutter:
   # The following line ensures that the Material Icons font is
@@ -90,6 +93,23 @@ flutter:
     - assets/images/milk.png
     - assets/images/potato.png
     - assets/images/tomato.png
+    - assets/images/image 21.png
+    - assets/images/image 22.png
+    - assets/images/image 23.png
+    - assets/images/image 24.png
+    - assets/images/image 25.png
+    - assets/images/image 31.png
+    - assets/images/image 32.png
+    - assets/images/image 33.png
+    - assets/images/image 34.png
+    - assets/images/image 35.png
+    - assets/images/image 36.png
+    - assets/images/image 37.png
+    - assets/images/image 38.png
+    - assets/images/image 39.png
+    - assets/images/image 40.png
+    - assets/images/star.png
+    - assets/images/document.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

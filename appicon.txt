@@ -1,0 +1,15 @@
+Set App Icon Flutter :
+
+1) In your pubspec.yaml add :
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+2) flutter pub get
+3) flutter pub run flutter_launcher_icons:main
+4) Check your app
+Android: android/app/src/main/res/mipmap-*/ic_launcher.png
+iOS: ios/Runner/Assets.xcassets/AppIcon.appiconset/
