@@ -13,3 +13,12 @@ flutter_icons:
 4) Check your app
 Android: android/app/src/main/res/mipmap-*/ic_launcher.png
 iOS: ios/Runner/Assets.xcassets/AppIcon.appiconset/
+
+Create Apk:
+1) flutter doctor
+2) cd your_project_name
+3) flutter clean
+4) flutter build apk --debug
+5) flutter build apk --profile
+6) flutter build apk --release
+7) Find Apk : /build/app/outputs/flutter-apk/app-release.apk
